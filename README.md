@@ -1,4 +1,4 @@
-# Aula Prática – Git Local e Integração com GitHub
+Git Local e Integração com GitHub
 
 ## Objetivo
 Aprender a utilizar o **Git** localmente para versionar projetos, criando commits, branches e manipulando o histórico de forma segura, além de integrar o repositório ao **GitHub** e documentar práticas de colaboração.
@@ -148,12 +148,6 @@ git log --oneline --graph
 ---
 
 ## Parte 2 – Integração com GitHub
-
-### 1. Fork do Repositório Original
-- Acesse o repositório original:  
-  [https://github.com/andersonrmgomes/git-local](https://github.com/andersonrmgomes/git-local)  
-- Clique em **Fork** para criar uma cópia em sua conta.  
-- Exemplo: `https://github.com/SEU_USUARIO/git-local`
 
 ### 2. Clonagem e Configuração Local
 
