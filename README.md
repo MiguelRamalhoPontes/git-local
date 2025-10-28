@@ -149,7 +149,7 @@ git log --oneline --graph
 
 ## Parte 2 – Integração com GitHub
 
-### 2. Clonagem e Configuração Local
+### 1. Clonagem e Configuração Local
 
 ```bash
 git clone https://github.com/SEU_USUARIO/git-local
@@ -157,7 +157,7 @@ cd git-local
 git checkout -b documentacao-colaboracao
 ```
 
-### 3. Integração Git Local ↔ GitHub
+### 2. Integração Git Local ↔ GitHub
 
 Comandos essenciais (auxiliados pelo GitFluence):
 
@@ -167,7 +167,7 @@ Comandos essenciais (auxiliados pelo GitFluence):
 | See all my current branches | `git branch -a` | Lista branches locais e remotos |
 | Check the status of my files | `git status` | Mostra arquivos modificados |
 
-### 4. Commit e Push das Alterações
+### 3. Commit e Push das Alterações
 
 ```bash
 git add .
@@ -175,7 +175,7 @@ git commit -m "feat: adiciona documentação sobre integração e colaboração"
 git push origin documentacao-colaboracao
 ```
 
-### 5. Pull Request (PR)
+### 4. Pull Request (PR)
 - Acesse seu fork no GitHub.  
 - Clique em **Compare & Pull Request**.  
 - Abra o PR do branch `documentacao-colaboracao` para o `main` do repositório original.  
